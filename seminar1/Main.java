@@ -1,4 +1,4 @@
-package seminars.first;
+package seminar1;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

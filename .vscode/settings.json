@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "libs/assertj-core-3.24.2.jar"
+    ]
+}

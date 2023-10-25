@@ -1,4 +1,4 @@
-package seminars.first.Shop;
+package seminar1.Shop;
 
 public class Product {
     private Integer cost; // Стоимость продукта
