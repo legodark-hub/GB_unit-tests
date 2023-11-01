@@ -1,5 +1,7 @@
 package seminar1.Shop;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -17,14 +19,23 @@ public class Shop {
 
     // Метод должен вернуть отсортированный по возрастанию по цене список продуктов
     public List<Product> sortProductsByPrice() {
-        // Допишите реализацию метода самостоятельно
-        return null;
+        List<Product> sortedProducts = new ArrayList<>(products);
+        sortedProducts.sort(Comparator.comparing(Product::getCost));
+        return sortedProducts;
     }
 
     // Метод должен вернуть самый дорогой продукт
     public Product getMostExpensiveProduct() {
-        // Допишите реализацию метода самостоятельно
-        return null;
+        if (products.isEmpty()) {
+            return null;
+        }
+        Product mostExpensive = products.get(0);
+        for (Product product : products) {
+            if (product.getCost() > mostExpensive.getCost()) {
+                mostExpensive = product;
+            }
+        }
+        return mostExpensive;
     }
 
 }
