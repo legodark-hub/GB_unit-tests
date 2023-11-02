@@ -1,4 +1,4 @@
-package seminars.third.tdd;
+package seminar3.tdd;
 
 import java.util.ArrayList;
 import java.util.List;

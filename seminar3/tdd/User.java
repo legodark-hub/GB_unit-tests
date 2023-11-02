@@ -1,4 +1,4 @@
-package seminars.third.tdd;
+package seminar3.tdd;
 
 public class User {
 

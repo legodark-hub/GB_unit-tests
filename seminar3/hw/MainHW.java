@@ -1,4 +1,4 @@
-package seminars.third.hw;
+package seminar3.hw;
 
 public class MainHW {
     // HW 3.1. Нужно покрыть тестами метод на 100%
