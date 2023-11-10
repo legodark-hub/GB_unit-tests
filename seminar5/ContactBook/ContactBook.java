@@ -24,7 +24,6 @@ public class ContactBook {
         if (contacts.isEmpty()) {
             System.out.println("Контакты отсутсвуют.\n");
         } else {
-            System.out.println("Список контактов:");
             for (Contact contact : contacts) {
                 System.out.println("Имя: " + contact.getName() + ", Номер: " + contact.getPhoneNumber());
             }
@@ -48,5 +47,9 @@ public class ContactBook {
         if (contacts.removeIf(contact -> contact.getName().equalsIgnoreCase(targetName)))
         System.out.println("Контакт удален!\n");
         else System.out.println("Нет такого контакта!\n");
+    }
+
+    public List<Contact> getContacts() {
+        return contacts;
     }
 }
