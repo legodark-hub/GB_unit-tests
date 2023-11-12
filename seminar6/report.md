@@ -1,11 +1,9 @@
-- **Код программы**
+- [**Код программы**](https://github.com/legodark-hub/GB_unit-tests/blob/main/seminar6/list_processor.py)
 
-
-- **Код тестов**
-
+- [**Код тестов**](https://github.com/legodark-hub/GB_unit-tests/blob/main/seminar6/test_list_processor.py)
 
 - **Отчет о покрытии тестами**
-![alt](.\coverage.png)
+![alt](coverage.png)
 
 - **Объяснение того, какие сценарии покрыты тестами и почему вы выбрали именно эти сценарии.**
 
